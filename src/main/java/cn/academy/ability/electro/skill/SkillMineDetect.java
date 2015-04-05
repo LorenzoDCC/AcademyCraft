@@ -1,13 +1,13 @@
 /**
  * Copyright (c) Lambda Innovation, 2013-2015
- * 本作品版权由Lambda Innovation所有。
+ * 鏈綔鍝佺増鏉冪敱Lambda Innovation鎵�湁銆�
  * http://www.li-dev.cn/
  *
  * This project is open-source, and it is distributed under  
  * the terms of GNU General Public License. You can modify
  * and distribute freely as long as you follow the license.
- * 本项目是一个开源项目，且遵循GNU通用公共授权协议。
- * 在遵照该协议的情况下，您可以自由传播和修改。
+ * 鏈」鐩槸涓�釜寮�簮椤圭洰锛屼笖閬靛惊GNU閫氱敤鍏叡鎺堟潈鍗忚銆�
+ * 鍦ㄩ伒鐓ц鍗忚鐨勬儏鍐典笅锛屾偍鍙互鑷敱浼犳挱鍜屼慨鏀广�
  * http://www.gnu.org/licenses/gpl.html
  */
 package cn.academy.ability.electro.skill;
@@ -184,8 +184,8 @@ public class SkillMineDetect extends SkillBase {
 			
 			private void updateBlocks() {
 				aliveSims.clear();
-				
-				AxisAlignedBB aabb = AxisAlignedBB.getAABBPool().getAABB(
+			
+				AxisAlignedBB aabb = AxisAlignedBB.getBoundingBox(
 						posX - range * 0.5, posY - range * 0.5, posZ - range * 0.5,
 						posX + range * 0.5, posY + range * 0.5, posZ + range * 0.5);
 				Set<BlockPos> set = GenericUtils.getBlocksWithinAABB(worldObj, aabb, blockFilter);
