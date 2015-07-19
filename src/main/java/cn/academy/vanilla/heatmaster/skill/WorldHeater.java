@@ -46,6 +46,7 @@ public class WorldHeater extends Skill
 	public WorldHeater()
 	{
 		super("world_heater", 1);
+		//TODO level
 		instance=this;
 	}
 
@@ -132,7 +133,7 @@ public class WorldHeater extends Skill
 		private void spawnEffects()
 		{
 			System.out.println("Effects Spawned");
-			//TODO
+			//TODO Effects
 			/*
 			EntityWorldHeater worldheater= new EntityWorldHeater(player.worldObj);
 //			worldheater.texWiggle= 0.7;
