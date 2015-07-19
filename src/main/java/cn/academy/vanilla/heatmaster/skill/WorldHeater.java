@@ -34,9 +34,11 @@ public class WorldHeater extends Skill
 	static
 	{
 		heatmap.put(Block.getBlockFromName("sand"),Block.getBlockFromName("glass"));
-//		heatmap.put(Block.getBlockFromName("sand"),Block.getBlockFromName("glass"));
-//		heatmap.put(Block.getBlockFromName("sand"),Block.getBlockFromName("glass"));
-//		heatmap.put(Block.getBlockFromName("sand"),Block.getBlockFromName("glass"));
+		heatmap.put(Block.getBlockFromName("cobblestone"),Block.getBlockFromName("stone"));
+		heatmap.put(Block.getBlockFromName("clay"),Block.getBlockFromName("brick_block"));
+		heatmap.put(Block.getBlockFromName("snow_layer"),Block.getBlockFromName("air"));
+		heatmap.put(Block.getBlockFromName("snow"),Block.getBlockFromName("water"));
+		heatmap.put(Block.getBlockFromName("ice"),Block.getBlockFromName("water"));
 		//TODO add more
 		// Suggestion: Maybe you can access minecraft's melting data? Weathfold
 		// Reply: Yiya~ exp will be ignored. ShieLian
