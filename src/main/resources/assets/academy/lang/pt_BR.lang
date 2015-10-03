@@ -1,0 +1,533 @@
+# AcademyCraft lang file
+# Debug version
+
+# Generic
+ac.generic.energy.desc=Energia
+ac.generic.load.desc=Carga ####
+
+ac.activate_key.deactivate.desc=Deactivate Ability
+ac.activate_key.endspecial.desc=End Special Skill Mode
+ac.activate_key.endskill.desc=Abort Skill
+
+# CreativeTab
+itemGroup.AcademyCraft=AcademyCraft
+
+# Item
+item.ac_crystal_low.name=Cristal Imag de Baixa Pureza
+item.ac_crystal_normal.name=Cristal Imag de Média Pureza
+item.ac_crystal_pure.name=Cristal Imag de Alta Pureza
+item.ac_constraint_ingot.name=Constraint Metal Ingot ####
+item.ac_constraint_plate.name=Constraint Metal Plate
+item.ac_imag_silicon_ingot.name=Barra de Silício Imag
+item.ac_wafer.name=Wafer de Silício Imag
+
+item.ac_brain_component.name=Analizador de Ondas Cerebrais
+item.ac_info_component.name=Processador de Informação
+item.ac_reinforced_iron_plate.name=Placa de Ferro Reforçado
+item.ac_resonance_component.name=Ressoador
+item.ac_energy_convert_component.name=Conversor de Energia
+item.ac_calc_chip.name=Chip de Cálculo
+item.ac_data_chip.name=Chip de Dados
+
+item.ac_matter_unit.name=Unidade de Matéria
+item.ac_matter_unit_phase_liquid.name=Unidade Imag de Líquido Phase
+item.ac_matter_unit_none.name=Unidade Vazia
+item.ac_matrix_core.name=Núcleo Matrix
+item.ac_matrix_core_0.name=Núcleo Matrix Básico
+item.ac_matrix_core_1.name=Núcleo Matrix Melhorado
+item.ac_matrix_core_2.name=Núcleo Matrix Avançado
+item.ac_energy_unit.name=Unidade de Energia
+item.ac_windgen_fan.name=Ventilador Gerador Eólico
+
+item.ac_coin.name=Moeda
+item.ac_silbarn.name=Celeiro de Silício
+item.ac_needle.name=Agulha
+item.ac_maghook.name=Gancho Magnético
+
+item.ac_terminal_installer.name=Terminal de Dados
+item.ac_apps.name=Instalador de Aplicativos
+
+item.ac_developer_portable.name=Desenvolvedor Portátil
+
+# Block
+tile.ac_constraint_metal_ore.name=Constraint Metal Ore ####
+tile.ac_crystal_ore.name=Minério de Cristal Imag
+tile.ac_imag_silicon_ore.name=Minério de Silício Imag
+tile.ac_machine_frame.name=Estrutura de Máquina
+
+tile.ac_phase_liquid.name=Líquido Phase Imag
+
+tile.ac_imag_fusor.name=Fusor Imag
+tile.ac_matrix.name=Matrix Imag Sem Fio
+tile.ac_node_basic.name=Nodo Imag Sem Fio Básico
+tile.ac_node_standard.name=Nodo Imag Sem Fio Melhorado
+tile.ac_node_advanced.name=Nodo Imag Sem Fio Avançado
+tile.ac_metal_former.name=Formador de Metais
+tile.ac_solar_gen.name=Gerador Solar
+tile.ac_cat_engine.name=Torrada e Gato
+tile.ac_phase_generator.name=Gerador Phase
+tile.ac_windgen_base.name=Base do Pilar do Gerador Eólico
+tile.ac_windgen_pillar.name=Pilar do Gerador Eólico
+tile.ac_windgen_main.name=Gerador Eólico
+tile.ac_eu_output.name=Ponte Elétrica (Saída EU IC2)
+tile.ac_eu_input.name=Ponte Elétrica (Entrada EU IC2)
+tile.ac_rf_output.name=Ponte Elétrica (Saída RF CoFH)
+tile.ac_rf_input.name=Ponte Elétrica (Entrada RF CoFH)
+tile.ac_developer_normal.name=Normal Ability Developer ####
+tile.ac_developer_advanced.name=Advanced Ability Developer
+
+# Generic Knowledges
+ac.knowledge.marathon.name=Maratona
+ac.knowledge.iron_feet.name=Pés de Ferro
+ac.knowledge.intheknee.name=Flecha no Joelho
+ac.knowledge.intheknee.desc=Eu costumava ser um aventureiro como você...
+ac.knowledge.bouncer.name=Segurança
+ac.knowledge.trajectory.name=Mestre das Trajetórias
+ac.knowledge.baseball.name=Homerun!!
+ac.knowledge.anatomy.name=Anatomista
+
+ac.gui.preset_edit.name=Preset Edit ####
+ac.gui.preset_edit.tag=Preset #
+ac.gui.preset_edit.skill_remove=Remover Atual
+ac.gui.preset_edit.skill_select=Select Skill
+
+# Data Terminal
+ac.terminal.notinstalled=Você ainda não instalou o Terminal de Dados.
+ac.terminal.alrdy_installed=Você já instalou o Terminal de Dados.
+ac.terminal.key_hint=Terminal de dados instalado com sucesso. Use a tecla %s para abrir/fechar a interface do terminal.
+
+ac.gui.terminal.installing= Instalando...
+ac.gui.terminal.appcount=%d Aplicativos
+
+ac.terminal.app_alrdy_installed=Você já instalou o app %s.
+ac.terminal.app_installed=Você instalou o app %s com sucesso.
+
+# Apps
+ac.app.skill_tree.name=Skill Tree ####
+ac.app.knowledge_record.name=Life Record
+ac.app.settings.name=Settings
+ac.app.media_player.name=Media Player
+
+ac.app.freq_transmitter.name=Transmissor de Frequências
+ac.app.freq_transmitter.s0_0=Please right-click a wireless matrix or node to start establish link from.
+ac.app.freq_transmitter.s1_0=Press ENTER to confirm ####
+ac.app.freq_transmitter.s1_1=Authorizing...
+ac.app.freq_transmitter.s2_0=Right click any wireless node nearby to establish link. Click any other blocks to quit.
+ac.app.freq_transmitter.s3_0=Right click any wireless receiver or generator nearby to esablish link. Click any other blocks to quit.
+
+ac.app.freq_transmitter.e0=The wireless matrix is not initialized.
+ac.app.freq_transmitter.e1=Authorization failed.
+ac.app.freq_transmitter.e2=Link failed. Possibly the matrix reached its capacity or signal out of range.
+ac.app.freq_transmitter.e3=Link failed. Possibly the node reached its capacity or signal out of range.
+ac.app.freq_transmitter.e4=Action aborted.
+ac.app.freq_transmitter.e5=Transmitting...
+ac.app.freq_transmitter.e6=Link successful.
+
+# Knowledge UI
+ac.knowledge.acquired=Conhecimento Adquirido
+
+# Skill Tree
+ac.skill_tree.title0=Skill Tree
+ac.skill_tree.title1=Ability Developer ####
+ac.skill_tree.version=Version: 1.0β1
+ac.skill_tree.notacquired=Ability not acquired.
+
+ac.skill_tree.level_prg=Progresso: %s
+
+ac.skill_tree.type_portable=Desenvolvedor Portátil
+ac.skill_tree.type_normal=Desenvolvedor Normal
+ac.skill_tree.type_advanced=Desenvolvedor Avançado
+
+ac.skill_tree.espinfo_title=Informação do ESPer
+
+ac.skill_tree.macinfo_title=Informação da máquina
+ac.skill_tree.energy=Energia
+ac.skill_tree.syncrate=Taxa de Sincronia
+
+ac.skill_tree.acquireprog=%1.0f%% adquirido
+ac.skill_tree.not_acquired=Não adquirido
+ac.skill_tree.uplevel=Upgrade para %s
+ac.skill_tree.acquire=Acquire Ability! ####
+ac.skill_tree.unknown_skill=<ERROR 0x5f3759df Unknown skill>
+ac.skill_tree.unknown=[DESCONHECIDO]
+
+ac.skill_tree.learn_skill=Aprender
+ac.skill_tree.required=Requerido: 
+
+ac.skill_tree.perf=Você está prestes a performar:
+ac.skill_tree.perf2=Proceder?
+ac.skill_tree.consumption=Consumo: %.0fIF
+ac.skill_tree.start=Começar
+ac.skill_tree.cancel=Cancelar
+
+ac.skill_tree.tracker=Monitor de Progresso
+ac.skill_tree.ok=OK
+ac.skill_tree.progress=Progresso: %.1f%%
+ac.skill_tree.aborted=Progresso: ABORTADO.
+ac.skill_tree.successful=Ação feita com sucesso.
+ac.skill_tree.abort=Abortar
+ac.skill_tree.aborted=Ação Abortada.
+
+# Settings
+ac.settings.cat.generic=Genérico
+ac.settings.prop.attackPlayer=Ativar PvP
+ac.settings.prop.destroyBlocks=Destruir blocos
+
+ac.settings.cat.keys=Teclas
+ac.settings.prop.ability_activation=Activate Ability ####
+ac.settings.prop.edit_preset=Edit Preset
+ac.settings.prop.switch_preset=Switch Preset
+ac.settings.prop.open_data_terminal=Abrir Terminal de Dados
+ac.settings.prop.ability_0=Ability #1 ####
+ac.settings.prop.ability_1=Ability #2
+ac.settings.prop.ability_2=Ability #3
+ac.settings.prop.ability_3=Ability #4
+ac.settings.prop.debug_console=Console de Depuração
+
+# Media
+ac.media.acquired=Você instalou a mídia %s
+ac.media.haveone=Você já instalou a mídia %s
+ac.media.notinstalled=Você ainda não instalou o aplicativo Reprodutor de Mídia.
+
+# Generic
+ac.gui.loading_lowercase.desc=carregando...
+ac.gui.loading_uppercase.desc=CARREGANDO...
+
+# Link UI
+ac.gui.link.transmitting=TRANSMITINDO...
+ac.gui.link.successful=Ligação Feita com Sucesso.
+ac.gui.link.failed=Ligação Falha.
+
+# Matrix
+ac.gui.matrix.mark.waiting.desc=Transmitindo...
+ac.gui.matrix.mark.invalid_input.desc=Valor de entrada inválido.
+ac.gui.matrix.mark.success.desc=Ação feita com sucesso.
+ac.gui.matrix.mark.fail.desc=Ação falha.
+ac.gui.matrix.bandwidth=Largura de Banda
+ac.gui.matrix.range=Alcance
+ac.gui.matrix.capacity=Capacidade
+
+# Node
+ac.gui.node.not_connected.desc=NÃO CONECTADO
+ac.gui.node.node_name.desc=Nome do Nodo
+ac.gui.node.ssid.desc=SSID: 
+ac.gui.node.password.desc=Senha: 
+ac.gui.node.current_ssid.desc=Atualmente Ligado: 
+ac.gui.node.not_connected.desc=<Não Conectado>
+ac.gui.node.rename.desc=Renomear
+
+ac.gui.node.mark.loading.desc=CARREGANDO
+ac.gui.node.mark.idle.desc=INATIVO
+ac.gui.node.mark.transmitting.desc=TRANSMITINDO
+ac.gui.node.mark.successful.desc=SUCESSO
+ac.gui.node.mark.failed.desc=FALHA
+
+# Phase Generator
+ac.gui.phase_gen.liquid=Líquido
+ac.gui.phase_gen.buffer=Reserva
+
+# Wind Generator
+ac.gui.wind_base.fancap=Capacidade do Ventilador
+ac.gui.wind_base.speed=Geração
+ac.gui.wind_base.buffer=Reserva
+
+ac.gui.wind.structure=Estrutura do gerador incompleta.
+ac.gui.wind.obstacle=Impossível colocar ventilador.
+
+# Imag Fusor
+ac.gui.imagfusor.ion.desc=Líquido Proj.
+ac.gui.imagfusor.flux.desc=Fluxo Imag
+
+# Metal Former
+ac.gui.metal_former.mode.etch=Etching ####
+ac.gui.metal_former.mode.plate=Plate Crushing
+ac.gui.metal_former.mode.incise=Incising
+
+ac.network.link=Ligar
+ac.network.search=Procurar redes
+
+# Cat Engine
+ac.cat_engine.unlink=Desligado com o nodo miau~
+ac.cat_engine.notfound=Nenhum nodo encontrado aqui perto miau~
+ac.cat_engine.linked=Ligado ao nodo chamado %s miau~
+
+# Media
+ac.media.only_my_railgun.name=Only My Railgun
+ac.media.only_my_railgun.desc=Toaru Kagaku no Railgun OP1
+ac.media.level5_judgelight.name=Level5 -Judgelight-
+ac.media.level5_judgelight.desc=Toaru Kagaku no Railgun OP2
+ac.media.sisters_noise.name=Sister's Noise
+ac.media.sisters_noise.desc=Toaru Kagaku no Railgun S OP1
+
+# Ability Generic
+ac.ability.level0=Nível 0
+ac.ability.level1=Nível 1
+ac.ability.level2=Nível 2
+ac.ability.level3=Nível 3
+ac.ability.level4=Nível 4
+ac.ability.level5=Nível 5
+
+# Electromaster
+ac.ability.electromaster.name=Eletromestre
+
+## EM Knowledges
+ac.knowledge.em_basic_volt.name=Controle de Voltagem Básico
+ac.knowledge.em_improved_volt.name=Controle de Voltagem Melhorado
+ac.knowledge.em_high_volt.name=Controle de Alta Voltagem
+ac.knowledge.mag_ctrl.name=Controle de Campo Magnético
+ac.knowledge.em_projectile_master.name=Mestre de Projéteis Magnético
+ac.knowledge.highenergy.name=Teoria da Alta Energia
+
+## EM Skills
+ac.ability.electromaster.arc_gen.name=Arc Geração de Arc
+ac.ability.electromaster.mag_manip.name=Magnet Manipulação de Ímãs
+ac.ability.electromaster.mine_detect.name=Detecção de Minas
+ac.ability.electromaster.railgun.name=Railgun ####
+ac.ability.electromaster.mag_movement.name=Movimento de Ímãs
+ac.ability.electromaster.iron_sand.name=Controle de Areia de Ferro
+ac.ability.electromaster.iron_sand.sword.name=Espada de Areia de Ferro
+ac.ability.electromaster.iron_sand.whip.name=Chicote de Areia de Ferro
+ac.ability.electromaster.iron_sand.storm.name=Tempestade de Areia de Ferro
+ac.ability.electromaster.iron_sand.cone.name=Cone de Areia de Ferro
+ac.ability.electromaster.charging.name=Carregamento de Corrente
+ac.ability.electromaster.body_intensify.name=Intensificar Corpos
+ac.ability.electromaster.thunder_clap.name=Trovão
+ac.ability.electromaster.thunder_bolt.name=Raio do Trovão
+
+ac.ability.electromaster.arc_gen.desc=Arouse a weak electrical arc, which causes slight damage on the area it hits. If it directly hits a flammable block, there is a chance of igniting it.
+ac.ability.electromaster.mag_manip.desc=Manipulate and move magnetizable things with the magnetic force, even throw them out to damage enemies.
+ac.ability.electromaster.mine_detect.desc=Close your eyes and feel the flowing of magnetic line, and you will be able to see a hint of precious mineral resources around you.
+ac.ability.electromaster.railgun.desc=Shoot the coin out at a high speed with electromagnetic induction. Cause destructive damage on the place it hits.
+ac.ability.electromaster.mag_movement.desc=Generate a strong magenetic field and pull yourself towards some magnetic target. Extremely useful when moving or escaping.
+ac.ability.electromaster.iron_sand.desc=Separate and manipulate the iron sand to creative a changeable and dangerous attack effect.
+ac.ability.electromaster.charging.desc=Generate electric currents to charge the thing in your hand or electric blocks in the world.
+ac.ability.electromaster.body_intensify.desc=Fine-tune your bioelectricity to improve your physical ability in a short duration.
+ac.ability.electromaster.thunder_clap.desc=Manipulate the magnetic field in the atmosphere to create thunderclouds, and guide the electricity down to cause a devastating lightning.
+ac.ability.electromaster.thunder_bolt.desc=Holds together a enormous amount of electricy and compress them into a highly powerful lance. The huge currents will burst out and hurt everything around.
+
+# Teleporter
+ac.ability.teleporter.name=Teleporter
+
+## TP Skills
+ac.ability.teleporter.threatening_teleport.name=Threatening Teleport
+ac.ability.teleporter.dim_folding_theoreom.name=Dimension Folding Theoreom
+ac.ability.teleporter.penetrate_teleport.name=Penetrate Teleport
+ac.ability.teleporter.mark_teleport.name=Mark Teleport
+ac.ability.teleporter.flesh_ripping.name=Flesh Ripping
+ac.ability.teleporter.location_teleport.name=Location Teleport
+ac.ability.teleporter.shift_tp.name=Shift Teleport
+ac.ability.teleporter.space_fluct.name=Space Fluctuation
+ac.ability.teleporter.flashing.name=Flashing
+ac.ability.teleporter.crithit=%fx critical hit!
+
+ac.ability.teleporter.threatening_teleport.desc=Teleport small things to somewhere around you. Sometimes just a small fragment is able to kill an enemy.
+ac.ability.teleporter.dim_folding_theoreom.desc=Boost your damage towards enemies by generating a tiny space folding phonemonon.
+ac.ability.teleporter.penetrate_teleport.desc=Derive the obstacle thickness in front of you, and straightly teleport through it.
+ac.ability.teleporter.mark_teleport.desc=Mark where your eye is looking at as your destination and teleport to there.
+ac.ability.teleporter.flesh_ripping.desc=Rip apart your enemy’s inside and cause deadly damage. But the over-bloody effect may make you feel uncomfortable. 
+ac.ability.teleporter.location_teleport.desc=Memorize the current location and teleport back from anywhere far away afterwards.
+ac.ability.teleporter.shift_tp.desc=Teleport a block with the means of coordinate teleport. The space folding phonemonon will hurt any entity on the teleportation path. 
+ac.ability.teleporter.space_fluct.desc=Strenghen your space-folding ability to cause more dangerous critical damage.
+ac.ability.teleporter.flashing.desc=Use multiple teleportations in a short time to maneuver in the air.
+
+ac.gui.loctele.tag0=Recorded Locations
+ac.gui.loctele.tag1=Add Location
+ac.gui.loctele.name=Name: 
+ac.gui.loctele.location=Location: 
+ac.gui.loctele.distance=Distance: 
+ac.gui.loctele.dim=Dimension: #
+ac.gui.loctele.warn0=[CP not enough.]
+ac.gui.loctele.warn1=You can't record this location now.
+ac.gui.loctele.teleport=Teleport!
+
+# Meltdowner
+ac.ability.meltdowner.name=Meltdowner
+
+## MD Skills
+ac.ability.meltdowner.electron_bomb.name=Electron Bomb
+ac.ability.meltdowner.rad_intensify.name=β Radiation Intensify
+ac.ability.meltdowner.ray_barrage.name=Ray Barrage
+ac.ability.meltdowner.scatter_bomb.name=Scattering Bomb
+ac.ability.meltdowner.meltdowner.name=Meltdowner
+ac.ability.meltdowner.light_shield.name=Light Shield
+ac.ability.meltdowner.jet_engine.name=Jet Engine
+ac.ability.meltdowner.mine_ray_basic.name=Basic Mining Ray
+ac.ability.meltdowner.mine_ray_expert.name=Expert Mining Ray
+ac.ability.meltdowner.mine_ray_luck.name=Luck Mining Ray
+ac.ability.meltdowner.electron_missile.name=Electron Missile
+
+ac.ability.meltdowner.electron_bomb.desc=Make together small amount of electrons to generate a threatening beam. 
+ac.ability.meltdowner.rad_intensify.desc=Because of the high-intensity radiation, the target hit by beam is doubly vunlunerable in a few seconds. 
+ac.ability.meltdowner.ray_barrage.desc=Use your high-energy ray with the Silicon Barn to create a ray barrage that destroys everything in front of you. 
+ac.ability.meltdowner.scatter_bomb.desc=Manipulate more than one electronics group to attack. As a result, you can't control the impact point accurately. 
+ac.ability.meltdowner.meltdowner.desc=Extreme high-energy electron beam that melts down walls and metals. 
+ac.ability.meltdowner.light_shield.desc=Turn many electronics into a shield. High-speed moving electronics will destroy all things attack you, and damage all things touch you closely.    
+ac.ability.meltdowner.jet_engine.desc=Use the propulsive force of electrons launch yourself into the air. Will generate a light-shield to protect yourself in the flight. 
+ac.ability.meltdowner.mine_ray_basic.desc=After a long time practice, you can make your electronic stream suitably to collect minerals without destroy them.
+ac.ability.meltdowner.mine_ray_expert.desc=Understanding how to control the intensity of electrons better, You can now harvest mineral resources more efficiently.
+ac.ability.meltdowner.mine_ray_luck.desc=After a long time of practice, you can almost harvest the useful resources in the ore perfectly.
+ac.ability.meltdowner.electron_missile.desc=Hold together a HUGE amount of electron cloud and use a small amount of it to attack each time.
+
+# Generic Skills
+ac.ability.generic.brain_course.name=Brain Course
+ac.ability.generic.brain_course_advanced.name=Brain Course Advanced
+ac.ability.generic.mind_course.name=Mind Course
+
+ac.ability.generic.brain_course.desc=Get a practice for your brain, it will let you be able to keep your skill longer.
+ac.ability.generic.brain_course_advanced.desc=More deeply and effectively develop the thinking ability of your brain. Improve skill keep time and patience.
+ac.ability.generic.mind_course.desc=Learn how to relax your brain better, to accelerate recovery speed of CP.
+
+# Knowledge
+ac.knowledge.bubble.name=Bubble Master
+
+# Command
+ac.command.invalid=§cInvalid input, please try again.
+ac.command.successful=§2Command sucessfully performed.
+ac.command.notlearned=§6The player has not learned any ability yet.
+
+ac.command.knowledge.usage=/knowledge <command>|<help> [parameters...]
+ac.command.knowledge.help=/knowledge help: Display the help message.
+ac.command.knowledge.stat=/knowledge stat: Show statistics info of player ac.knowledge.
+ac.command.knowledge.clear=/knowledge clear: Clear all knowledge info and start over again.
+ac.command.knowledge.getall=/knowledge getall: Learn all knowledges right now.
+ac.command.knowledge.list=/knowledge list: List all available knowledges.
+ac.command.knowledge.learn=/knowledge learn [knowledge_name]: Learn some ac.knowledge. 
+ac.command.knowledge.unlearn=/knowledge unlearn [knowledge_name]: Unlearn some ac.knowledge.
+ac.command.knowledge.stat2=Knowledge learned: %s
+ac.command.knowledge.stat3=Knowledge discovered: %s
+ac.command.knowledge.notfound=Knowledge with name %s doesn't exist.
+ac.command.knowledge.all=All knowledges:
+ac.command.knowledge.discover=/knowledge discover [knowledge_name]: Discover a specific ac.knowledge.
+
+ac.command.aim.usage=/aim <command>|<help> [parameters...]
+ac.command.aim.help=/aim help: Display the help message.
+ac.command.aim.cat=/aim cat [catName]: Change the specified player's categories or display the current category.
+ac.command.aim.catlist=/aim catlist: List all available categories' names.
+ac.command.aim.learn=/aim learn <id>|<skillName>: Learn the specified skill. Regardless of its learning condition requirements.
+ac.command.aim.unlearn=/aim unlearn <id>|<skillName>: Unlearn the specified skill.
+ac.command.aim.learn_all=/aim learn_all: Learn all the skills.
+ac.command.aim.reset=/aim reset: Clear your ability information.
+ac.command.aim.learned=/aim learned: Display all currently learned skills.
+ac.command.aim.skills=/aim skills: Display all skills in player's current category.
+ac.command.aim.fullcp=/aim fullcp: Restore full cp of the player.
+ac.command.aim.level=/aim level: Set the player's ability level.
+ac.command.aim.exp=/aim exp <id>|<skillName> [exp]: Set or view the skill's experience level.
+ac.command.aim.nocat=Specified category not found.
+ac.command.aim.cats=Currently available categories: 
+ac.command.aim.curcat=Player current category: %s
+ac.command.aim.nonecat=No ability
+ac.command.aim.noskill=No such skill was found.
+ac.command.aim.learned.format=Learned skills: %s
+ac.command.aim.curexp=Skill %s's current exp: %.0f%%.
+ac.command.aim.notactive=The /aim command is currently inactive. Use /aim cheats_on or /aim cheats_off to change the active state.
+ac.command.aim.warning=§cWARNING: Using /aim command will break the game balance and impact your experience about the mod, PROCEED WITH CAUTION!
+
+ac.command.preset.usage=/preset <command>|<help> [parameters...]
+ac.command.preset.help=/preset help: Display the help message.
+ac.command.preset.view=/preset view <id>: View the preset info with given ID.
+ac.command.preset.edit=/preset edit <id> [map0, [map1, [map2, ...]]]: Edit the preset with given ID. Mapping is controllable id.
+ac.command.preset.list=/preset list: View all currently available controllables.
+ac.command.preset.nobind=No bindings.
+ac.command.preset.list2=Available controllables:
+
+# Achievements
+achievement.ac_phase_liquid=New Energy
+achievement.ac_phase_liquid.desc=Acquire Imag Phase Liquid
+achievement.ac_matrix1=The Start of WEN
+achievement.ac_matrix1.desc=Craft a matrix
+achievement.ac_matrix2=Abandon Wires
+achievement.ac_matrix2.desc=Craft a matrix core
+achievement.ac_node=New Conductor
+achievement.ac_node.desc=Craft a node
+achievement.ac_developer1=Let's Start
+achievement.ac_developer1.desc=Craft a Portable Developer
+achievement.ac_developer2=Standard Equipment
+achievement.ac_developer2.desc=Craft a Normal Ability Developer
+achievement.ac_developer3=Strong Man's Show
+achievement.ac_developer3.desc=Craft an Advanced Ability Developer
+achievement.ac_phasegen=New Generator
+achievement.ac_phasegen.desc=Craft a Phase Generator
+achievement.ac_solargen=The Light
+achievement.ac_solargen.desc=Craft a Solar Generator
+achievement.ac_windgen=The Clean Energy
+achievement.ac_windgen.desc=Craft a Wind Generator
+achievement.ac_crystal=Crystal!
+achievement.ac_crystal.desc=Acquire Imag Crystal
+achievement.ac_terminal=Kidney Free
+achievement.ac_terminal.desc=Craft a Data Terminal
+
+ac.achievementpage.cat_electromaster=Electromaster
+achievement.ac_electromaster.lv1=Fluctuating Current
+achievement.ac_electromaster.lv1.desc=Can’t even generate a stable current, outranked!
+achievement.ac_electromaster.lv2=Imperfect Electricity
+achievement.ac_electromaster.lv2.desc=Still with such low voltage, weak!
+achievement.ac_electromaster.lv3=Irradiating Arc
+achievement.ac_electromaster.lv3.desc=Come on, control your current!
+achievement.ac_electromaster.lv4=High-Freq Lightning
+achievement.ac_electromaster.lv4.desc=Burst out your potential of destruction!
+achievement.ac_electromaster.lv5=Railgun Queen
+achievement.ac_electromaster.lv5.desc=Only My Railgun!
+achievement.ac_electromaster.arc_gen=Food Shortage
+achievement.ac_electromaster.arc_gen.desc=Starved. Hmmm, some fish in the water?
+achievement.ac_electromaster.attack_creeper=Self Destruction
+achievement.ac_electromaster.attack_creeper.desc=It is heard that creeper is vunlunerable to electricity
+achievement.ac_electromaster.mag_movement=Self-Lifting
+achievement.ac_electromaster.mag_movement.desc=Hey look at me I can fly!
+achievement.ac_electromaster.body_intensify=Bioelectricity Drugster
+achievement.ac_electromaster.body_intensify.desc=It’s better off to give myself some electric shock
+#achievement.ac_electromaster.iron_sand=
+#achievement.ac_electromaster.iron_sand.desc=
+achievement.ac_electromaster.mine_detect=Magnetic Scope
+achievement.ac_electromaster.mine_detect.desc=But...why am I seeing carbons?
+achievement.ac_electromaster.thunder_bolt=Lightning Chain
+achievement.ac_electromaster.thunder_bolt.desc=Spare no enemy around
+achievement.ac_electromaster.railgun=Only My Railgun
+achievement.ac_electromaster.railgun.desc=Railgun, fire!
+achievement.ac_electromaster.thunder_clap=Thunderstorm Generator
+achievement.ac_electromaster.thunder_clap.desc=I’m where the cloud and storm is at
+
+ac.achievementpage.cat_meltdowner=Meltdowner
+achievement.ac_meltdowner.lv1=Electron Current
+achievement.ac_meltdowner.lv1.desc=Are you using a water gun or something?
+achievement.ac_meltdowner.lv2=Destructive Beam
+achievement.ac_meltdowner.lv2.desc=Decompose that block at your front
+achievement.ac_meltdowner.lv3=Igniting Irradiation
+achievement.ac_meltdowner.lv3.desc=Hyperthermia works well on destroying things
+achievement.ac_meltdowner.lv4=Collapsing Barrage
+achievement.ac_meltdowner.lv4.desc=No matter can survive your beam
+achievement.ac_meltdowner.lv5=Meltdowner
+achievement.ac_meltdowner.lv5.desc=Destroy everything, in the atom perspective
+achievement.ac_meltdowner.rad_intensify=Polluting Ray
+achievement.ac_meltdowner.rad_intensify.desc=β-ray does hurt living beings
+achievement.ac_meltdowner.light_shield=Destroying Shield
+achievement.ac_meltdowner.light_shield.desc=Destructive light also provides protection
+achievement.ac_meltdowner.meltdowner=Reshape the Map
+achievement.ac_meltdowner.meltdowner.desc=Nothing can stop me, even terrain
+achievement.ac_meltdowner.mine_ray=Tunnel with Ray
+achievement.ac_meltdowner.mine_ray.desc=Low power mode can be a mining drill
+achievement.ac_meltdowner.jet_engine=Jet Engine
+achievement.ac_meltdowner.jet_engine.desc=Can you stop me?
+achievement.ac_meltdowner.electron_missile=Light of Death
+achievement.ac_meltdowner.electron_missile.desc=See the light? OK, you are burnt out
+
+ac.achievementpage.cat_teleporter=Teleporter
+achievement.ac_teleporter.lv1=Coordinate Analysis
+achievement.ac_teleporter.lv1.desc=Grasp the basic principle to teleport in the space
+achievement.ac_teleporter.lv2=Dimension Disortion
+achievement.ac_teleporter.lv2.desc=The spacetime is not definete, idiot!
+achievement.ac_teleporter.lv3=Space Folding
+achievement.ac_teleporter.lv3.desc=Move freely in the 4th dimension!
+achievement.ac_teleporter.lv4=Super-String Manipulation
+achievement.ac_teleporter.lv4.desc=Look for the basic composition of the space
+achievement.ac_teleporter.lv5=Touch the Singularity
+achievement.ac_teleporter.lv5.desc=Master the ultimate theorem of the spacetime
+achievement.ac_teleporter.threatening_teleport=Foreign Matter
+achievement.ac_teleporter.threatening_teleport.desc=Don't you feel unwell?
+achievement.ac_teleporter.critical_attack=Fold the Dimension
+achievement.ac_teleporter.critical_attack.desc=How about those attacks?
+achievement.ac_teleporter.ignore_barrier=Ignore Barriers
+achievement.ac_teleporter.ignore_barrier.desc=Nothing can stop a Teleporter
+achievement.ac_teleporter.flashing=Flashing and Flashing
+achievement.ac_teleporter.flashing.desc=While low form beings still move on their foot
+achievement.ac_teleporter.mastery=Dimension Traveler
+achievement.ac_teleporter.mastery.desc=Teleporters does travel between dimensions
